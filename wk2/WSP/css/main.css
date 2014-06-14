@@ -48,7 +48,7 @@ nav p{
 }
 
 nav img{
-	margin: 0px 5px 5px 85px;
+	margin: 0px 5px 5px 6%;
 }
 
 nav a:hover{
@@ -78,15 +78,14 @@ nav a{
 }
 
 #searchButton{
-	margin-right: 85px;
+	margin-right: 5%;
 	margin-top: -25px;
 }
 
 .slider{
-	width: 600px;
-	margin-left: -130px;
+	margin-left: -15%;
 	margin-top: 15px;
-	float: left;
+
 }
 .slider img{
 	width: 100%;
@@ -94,11 +93,11 @@ nav a{
 }
 
 .welcome{
-	margin: -600px 0px 0px 380px;
+	margin: -600px 0px 0px 25%;
 }
 
 .welcome p{
-	font-size: 22px;
+	font-size: 1.5em;
 	line-height: 36px;
 }
 
@@ -113,13 +112,13 @@ nav a{
 }
 
 #sub-left{
-	margin-left: -130px;
+	margin-left: -13.5%;
 	margin-bottom: -5px;
 	padding-bottom: 15px;
 }
 
 #sub-left img{
-	margin: 0px 80px;
+	margin: 0px 25%;
 }
 
 #sub-right{
@@ -229,11 +228,174 @@ footer{
 
 
 
+@media screen and (min-width: 768px) and (max-width: 959px){
+	.slider{
+	margin-left: 20%;
+	margin-top: 15px;
+	}
+
+	.welcome{
+	margin: -600px 0px 0px -4%;
+	}
+
+	#sub-right{
+	display: none;
+	}
+
+	#sub-left{
+		margin-left: 6.5%;
+	}
+	#sub-mid{
+		margin-left: 60%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	#searchFm{
+	display: none;
+	}
+
+	nav p{
+		margin-right: 3%;
+		margin-top: 4%;
+	}
+
+	.slider{
+	margin-left: 25%;
+	margin-top: 15px;
+	}
+
+	.welcome{
+	margin: -600px 0px 0px 1%;
+	}
+
+	#sub-left{
+		margin-left: 10%;
+	}
+	#sub-mid{
+		margin-left: 50%;
+	}
+
+	.addSpace{
+		display: none;
+	}
+
+	.searchRes{
+	display:block;
+	float: left;
+	width: 90%;
+	margin-top: -490px;
+	margin-left: 20%;
+	margin-bottom: 10px;
+	position: absolute;
+	}
+
+	footer{
+		display: none;
+	}
+
+	aside{
+		width: 100%
+	}
+}
+
+@media only screen and (max-width: 479px){
+	
+	nav	img{
+		margin: 5px 42%;
+	}
+
+	.slider{
+	margin-left: 1%;
+	margin-top: 125px;
+	width: 95%;
+	}
+
+	.welcome{
+	margin: -600px 0px 0px -5%;
+	}
+
+	#sub-left{
+		width: 95%;
+		margin-left: 1%;
+	}
+
+	#sub-mid{
+		width: 95%;
+		margin-left: 1%;
+		margin-top: 10px;
+	}
+
+	footer{
+		display: none;
+	}
+
+	#searchFm{
+	display: none;
+	}
 
 
+	nav li{
+		display: block;
+		background-color: #434343;
+		width:394px;
+		margin-left: -5%;
+		padding: 10px;
+	}
 
+	nav ul{
+		margin-top: 1px;
 
+	}
 
+	nav li a{
+		background-color: #434343;
+		width: 300px;
+		margin-left: -231px;
+		padding: 10px 280px;
+	}
+
+	nav p{
+		margin-top: 200px;
+		margin-bottom: -52px;
+	}
+
+	nav p a{
+		background-color: #434343;
+		width: 300px;
+		padding: 20px 30px;
+		margin-left: 10px
+	}
+
+	.addSpace{
+		display: none;
+	}
+
+	.login{
+		margin: 90px 1px;
+	}
+
+	.searchRes{
+	display:block;
+	float: left;
+	width: 990px;
+	margin-top: -300px;
+	margin-left: 5%;
+	margin-bottom: 10px;
+	position: absolute;
+	}
+
+	.rec-1, .rec-2, .rec-3, .rec-4, .rec-5, .rec-6{
+	float: none;
+	margin-right: 25px;
+	}
+
+	.nextBtn{
+	margin-right: 785px;
+	}
+
+}
 
 
 
