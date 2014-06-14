@@ -1,0 +1,243 @@
+body{
+	background-color: #F4EAEB;
+	font-family: Helvetica;
+}
+
+h1{
+	font-weight: lighter;
+	color: #587FB7;
+}
+
+h3{
+	font-weight: lighter;
+	color: #587FB7;
+}
+
+p{
+	font-size: 16px;
+}
+
+a{
+	color: #F0F1F2;
+}
+
+ul{
+	list-style-type: none;
+}
+
+nav{
+	background-color: #434343;
+	height: 85px;
+}
+
+nav ul{
+	display: inline-block;
+	height: 30px;
+	margin-top: 30px;
+}
+
+nav li{
+	display: inline;
+	padding: 10px;
+}
+
+nav p{
+	float: right;
+	margin-right: 85px;
+	margin-top: 5px;
+}
+
+nav img{
+	margin: 0px 5px 5px 85px;
+}
+
+nav a:hover{
+	background-color: #303030;
+}
+
+nav a{
+	padding: 34px 4px;
+}
+
+.mainScrn{
+	background-color: #B9B9C9;
+	color: #303030;
+}
+
+#searchFm{
+	margin-top: -50px;
+}
+
+#searchFm input{
+	height: 30px;
+}
+
+#srcField{
+	height: 30px;
+	margin-right: -90px;
+}
+
+#searchButton{
+	margin-right: 85px;
+	margin-top: -25px;
+}
+
+.slider{
+	width: 600px;
+	margin-left: -130px;
+	margin-top: 15px;
+	float: left;
+}
+.slider img{
+	width: 100%;
+	height: 300px;
+}
+
+.welcome{
+	margin: -600px 0px 0px 380px;
+}
+
+.welcome p{
+	font-size: 22px;
+	line-height: 36px;
+}
+
+
+#sub-left, #sub-mid, #sub-right{
+	background-color: #434343;
+	color: white;
+}
+
+#sub-left p, #sub-mid, #sub-right{
+	background-color: #434343;
+}
+
+#sub-left{
+	margin-left: -130px;
+	margin-bottom: -5px;
+	padding-bottom: 15px;
+}
+
+#sub-left img{
+	margin: 0px 80px;
+}
+
+#sub-right{
+	margin: -238px 100px 0px 810px;
+	padding-bottom: 13px;
+}
+
+#sub-right img{
+	padding-top: 14px;
+	margin: 0px 100px;
+}
+
+#sub-right p{
+	margin: 0px 100px;
+}
+
+#sub-mid{
+	margin: -233px 0px 0px 300px;
+}
+
+.fo-left{
+	float: left;
+	margin-left: 75px;
+	margin-right: 60px;
+}
+
+aside{
+	background-color: #B9B9C9;
+	margin-top: 10px;
+	margin-left: -130px;
+
+}
+
+aside form{
+	margin-top: 10px;
+}
+
+aside .addSpace{
+	height: 300px;
+	width: 300px;
+	background-color: gray;
+}
+
+.searchRes{
+	display: inline-block;
+	float: right;
+	width: 990px;
+	margin-top: -780px;
+}
+
+.searchRes img{
+	height: 200px;
+	width: 270px;
+}
+
+.searchRes p{
+	width: 290px;
+}
+
+.nextBtn{
+	margin-right: 85px;
+}
+
+.rec-1, .rec-2, .rec-3, .rec-4, .rec-5, .rec-6{
+	float: left;
+	margin-right: 25px;
+}
+
+.rec-4, .rec-5, .rec-6{
+	margin-top: 40px;
+}
+
+.tab2 aside{
+	margin-left: 10px;
+}
+
+.proRec{
+	margin: -110px 50px 30px -50px;
+}
+
+.proInfo img{
+	margin: 20px 0px 20px 220px;
+}
+
+.proInfo ul{
+	margin: 0px 0px 10px 220px;
+}
+
+.logIn{
+	margin: 0px 60px;
+}
+
+.srPImg{
+	margin: -500px 80px;
+}
+
+.direc{
+	margin: 130px 80px 90px 80px;
+}
+
+footer{
+	background-color: #B9B9C9;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
