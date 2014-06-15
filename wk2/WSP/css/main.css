@@ -298,6 +298,26 @@ footer{
 	aside{
 		width: 100%
 	}
+
+	.proRec{
+		margin-top: 30px;
+		margin-left: 10px;
+		width: 80%;
+	}
+
+	.recLast p{
+		width: 90%;
+		margin-left: 25px;
+	}
+
+	.recLast h3{
+		width: 90%;
+		margin-left: 25px;
+	}
+
+	.proInfo{
+		margin-left: -180px;
+	}
 }
 
 @media only screen and (max-width: 479px){
@@ -393,6 +413,27 @@ footer{
 
 	.nextBtn{
 	margin-right: 785px;
+	}
+
+	.proRec{
+		margin-top: 30px;
+		margin-left: 10px;
+		width: 80%;
+	}
+
+	.recLast p{
+		width: 90%;
+		margin-left: 25px;
+	}
+
+	.recLast h3{
+		width: 90%;
+		margin-left: 25px;
+	}
+
+	.proInfo{
+		margin-top: 300px;
+		margin-left: -180px;
 	}
 
 }
