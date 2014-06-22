@@ -26,7 +26,15 @@ ul{
 }
 
 nav{
-	background-color: #434343;
+	background: #434343; /* Old browsers */
+	background: -moz-linear-gradient(top,  #434343 18%, #444444 37%, #545454 75%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,#434343), color-stop(37%,#444444), color-stop(75%,#545454)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #434343 18%,#444444 37%,#545454 75%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #434343 18%,#444444 37%,#545454 75%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #434343 18%,#444444 37%,#545454 75%); /* IE10+ */
+	background: linear-gradient(to bottom,  #434343 18%,#444444 37%,#545454 75%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#545454',GradientType=0 ); /* IE6-9 */
+
 	height: 85px;
 }
 
@@ -59,6 +67,19 @@ nav a{
 	padding: 34px 4px;
 }
 
+#searchButton{
+  width: 60px;
+  margin-right: 5%;
+  margin-top: -30px;
+  border: 1px solid #777777;
+  background: #587FB7;
+  color: white;
+  cursor: pointer;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
 .mainScrn{
 	background-color: #B9B9C9;
 	color: #303030;
@@ -75,11 +96,6 @@ nav a{
 #srcField{
 	height: 30px;
 	margin-right: -90px;
-}
-
-#searchButton{
-	margin-right: 5%;
-	margin-top: -25px;
 }
 
 .slider{
@@ -248,9 +264,43 @@ footer{
 	#sub-mid{
 		margin-left: 60%;
 	}
+
+	.addSpace{
+		display: none;
+	}
+
+	.searchRes{
+		width: 700px;
+		margin-right: -70px;
+		margin-top: -500px;
+	}
+
+	.searchRes img{
+		height: 110px;
+		width: 180px;
+	}
+
+	.searchRes p{
+		width: 180px;
+	}
+
+	aside{
+		width: 60%;
+		margin-left:20px;
+	}
+
+	footer{
+		margin-top: 180px;
+	}
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){
+@media only screen and (min-width: 480px) and (max-width: 600px){
+
+	#asiSea{
+		width: 100%;
+		margin-left: 5px;
+		margin-top: -30px;
+	}
 
 	#searchFm{
 	display: none;
@@ -262,8 +312,9 @@ footer{
 	}
 
 	.slider{
-	margin-left: 25%;
+	margin-left: 5%;
 	margin-top: 15px;
+	width: 90%;
 	}
 
 	.welcome{
@@ -273,8 +324,15 @@ footer{
 	#sub-left{
 		margin-left: 10%;
 	}
+
+	#sub-left img{
+		margin-left: 10%;
+	}
+
 	#sub-mid{
 		margin-left: 50%;
+		width: 250px;
+		margin-top: -258px;
 	}
 
 	.addSpace{
@@ -282,13 +340,22 @@ footer{
 	}
 
 	.searchRes{
-	display:block;
-	float: left;
-	width: 90%;
-	margin-top: -490px;
-	margin-left: 20%;
-	margin-bottom: 10px;
-	position: absolute;
+		display:block;
+		float: left;
+		width: 90%;
+		margin-top: 10px;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		position: absolute;
+	}
+
+	.searchRes img{
+		height: 170px;
+		width: 240px;
+	}
+
+	.searchRes p{
+		width: 240px;
 	}
 
 	footer{
@@ -321,6 +388,11 @@ footer{
 }
 
 @media only screen and (max-width: 479px){
+
+	#asiSea{
+		width: 100%;
+		margin-left: 5px;
+	}
 	
 	nav	img{
 		margin: 5px 42%;
@@ -352,7 +424,7 @@ footer{
 	}
 
 	#searchFm{
-	display: none;
+		display: none;
 	}
 
 
@@ -400,7 +472,7 @@ footer{
 	display:block;
 	float: left;
 	width: 990px;
-	margin-top: -300px;
+	margin-top: 10px;
 	margin-left: 5%;
 	margin-bottom: 10px;
 	position: absolute;
