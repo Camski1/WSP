@@ -59,7 +59,7 @@ nav img{
 	margin: 0px 5px 5px 6%;
 }
 
-nav a:hover{
+nav ul li a:hover{
 	background-color: #303030;
 }
 
@@ -69,6 +69,33 @@ nav a{
 
 #searchButton{
   width: 60px;
+  margin-right: 5%;
+  margin-top: -30px;
+  border: 1px solid #777777;
+  background: #587FB7;
+  color: white;
+  cursor: pointer;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.submit{
+  width: 60px;
+  margin-right: 5%;
+  margin-top: -30px;
+  border: 1px solid #777777;
+  background: #587FB7;
+  color: white;
+  cursor: pointer;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.indexSubmit{
+  width: 100px;
+  padding: 5px;
   margin-right: 5%;
   margin-top: -30px;
   border: 1px solid #777777;
@@ -190,8 +217,25 @@ aside .addSpace{
 	width: 270px;
 }
 
+.searchRes img:hover{
+	  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=70);
+
+  /* Netscape */
+  -moz-opacity: 0.7;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.7;
+
+  /* Good browsers */
+  opacity: 0.7;
+}
+
 .searchRes p{
-	width: 290px;
+	width: 280px;
 }
 
 .nextBtn{
